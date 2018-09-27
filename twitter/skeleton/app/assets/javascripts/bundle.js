@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: Unexpected token (21:6)\nYou may need an appropriate loader to handle this file type.\n|     e.preventDefault();\n|     $.ajax ({\n>       (this.followState === 'unfollowed') ? (method: \"POST\") : (method: \"DELETE\");\n|       data: {\n|         this.followState,");
+throw new Error("Module parse failed: Unexpected token (22:6)\nYou may need an appropriate loader to handle this file type.\n|     e.preventDefault();\n|     $.ajax ({\n>       (this.followState === 'unfollowed') ? (method: \"POST\") : (method: \"DELETE\");\n|       render();\n|       data: {");
 
 /***/ }),
 

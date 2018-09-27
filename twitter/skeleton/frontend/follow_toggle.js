@@ -13,21 +13,20 @@ class FollowToggle{
     } else {
       return "Unfollow!";
     }
+    $('disabled').toggle();
   }
   
   handleclick(){
     e.preventDefault();
     $.ajax ({
       (this.followState === 'unfollowed') ? (method: "POST") : (method: "DELETE");
+      render();
       data: {
         this.followState,
       }
       dataType: "JSON",
-      
-      
     })
   }
-  
 }
 
 module.exports = FollowToggle;
